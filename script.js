@@ -12,11 +12,16 @@ const catGifFiles = [
 ];
 
 
+let last = ""
 
 showCatButton.addEventListener("click", function () {
+   let randomIndex;
 
-  const randomIndex = Math.floor(Math.random() * catGifFiles.length);
+  do {
+     randomIndex = Math.floor(Math.random() * catGifFiles.length);
+   } while (last === randomIndex)
   
+   last = randomIndex 
   const randomCatGif = catGifFiles[randomIndex];
   
   catGif.src = "assets/" + randomCatGif;
