@@ -8,7 +8,8 @@ const catGifFiles = [
   "cat4.gif",
   "cat5.gif",
   "cat6.gif",
-  "cat7.gif"
+  "cat7.gif",
+  "cat8.jpg"
 ];
 
 
