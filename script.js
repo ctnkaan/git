@@ -9,6 +9,7 @@ const catGifFiles = [
   "cat5.gif",
   "cat6.gif",
   "cat7.gif",
+  "cappy.png"
 ];
 
 
